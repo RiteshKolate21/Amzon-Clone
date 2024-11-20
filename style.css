@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo
 {
@@ -49,3 +50,37 @@
     display: flex;
    
 }
+
+/*seach design*/
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(167, 179, 2);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+.search-select{
+    border-radius: 3px;
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 47px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#ffb554;
+    border-radius: 3px;
+
+}
+
